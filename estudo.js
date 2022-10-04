@@ -15,3 +15,20 @@ function alo(){
     document.write(tabuada + " x 9 = " + (tabuada*9)+"<br>");
     document.write(tabuada + " x 10 = " + (tabuada*10));
 }
+//for(inicio,validacao,manutencao)
+function escreva(){
+    for(var i=1; i <= 10; i++){
+        
+        for(var j = i; j <=10; j++){
+            writedocument(tabuada + " x " + i " = " + (tabuada*i)+"<br>")
+        }
+        document.write("<br>");
+    }
+}
+
+function quadrado(){
+    for(var i = 2; i < 11; i++){
+        document.write("0 quadrado de " + i + " é " + (i*i)+"<br>");
+    }
+}
+
