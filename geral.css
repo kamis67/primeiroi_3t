@@ -1,24 +1,35 @@
-. calculadora{
-    fundo:rgb (160, 221, 213) ;
-    largura: 200px;
-    preenchimento: 10px;
-
+.calculadora {
+    padding: 10px;
+    background:#cccccc;
+    width: 200px;
+    border-radius: 5px;
+    
+}
+.calculadora input{
+    background: rgb(230, 222, 236);
+    color: rgb(47, 37, 56);
+    border-radius: 5px;
 }
 
-#btnCalc {
-    fundo: rgb (100, 140, 226);
-    cor: concha do mar;
-    preenchimento: 5px;
+.spResul {
+    background: rgb(164, 139, 194);
+    color: aliceblue;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 3px;
 }
 
-#btnCalc:pairar {
-    fundo: rgb (106, 226, 156);
-    cor: rgb(0, 0, 0);
-    cursor: ponteiro;
+#btnCal {
+    width: 50px;
+    padding: 5px;
+    background: rgb(164, 139, 194);
+    margin-top: 13px;
+    color: aliceblue;
+    border-radius: 5px;
 }
-. spResultado{
-    fundo: preto;
-    cor: amarelo;
-    preenchimento: 4px;
-    margem: 2px;
+
+#btnCal:hover {
+    background: rgb(97, 81, 117);
+    color: aliceblue;
+    cursor: pointer;
 }
