@@ -1,4 +1,4 @@
-// alert("Oi! Eu sou o Alert");
+/// alert("Oi! Eu sou o Alert");
 // document.write("Estou na página.");
 // console.log("Eu estou no console.");
 let tabuada = 5;
@@ -46,10 +46,10 @@ function total(){
     for(let m = 1; m <= t; m++){
         resultado = (val * ((ju/100)+1));
         val = resultado;
-       saida +="Mês " + m + "; " + moeda(val) + "<br>";
-       // document.write("Mês " + m + " valor de " + moeda(val) + "<br>");
+        saida += "Mês " + m + ": " + moeda(val) + "<br>";
+        //document.write("Mês " + m + " valor de " + moeda(val) + "<br>");
     }
-    document.getElementById("mes").innerHTML + saida;
-    document.getAnimations("resultado").innerHTML = "total" + moeda(resultado);
-   // document.write("O total é de: " + moeda(resultado) );
+    document.getElementById("mes").innerHTML = saida;
+    document.getElementById("resultado").innerHTML = "Total: " + moeda(resultado);
+   //document.write("O total é de: " + moeda(resultado) );
 }
