@@ -3,33 +3,29 @@
     background:#cccccc;
     width: 200px;
     border-radius: 5px;
+    box-shadow: 5px 5px rgb(155, 142, 172)
     
 }
-.calculadora input{
-    background: rgb(230, 222, 236);
-    color: rgb(47, 37, 56);
+
+.calculadora input {
+    background-color: rgb(173, 172, 167);
+    border: none;
+    padding: 5px;
     border-radius: 5px;
 }
-
-.spResul {
-    background: rgb(164, 139, 194);
-    color: aliceblue;
-    padding: 5px;
-    margin: 5px;
-    border-radius: 3px;
+.calculadora  input:focus{
+    background-color: darkgray;
+    color: rgb(148, 144, 144);
 }
-
-#btnCal {
-    width: 50px;
+#btncalc {
+    background-color: darkgrey;
+    color: rgb(107, 103, 103);
     padding: 5px;
-    background: rgb(164, 139, 194);
-    margin-top: 13px;
-    color: aliceblue;
     border-radius: 5px;
+    margin-top : 10 px ;
 }
-
-#btnCal:hover {
-    background: rgb(97, 81, 117);
-    color: aliceblue;
+#btncalc:hover {
+    background-color: darkgrey;
+    color: rgb(105, 99, 99);
     cursor: pointer;
 }
