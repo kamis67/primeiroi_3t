@@ -8,7 +8,7 @@
 }
 
 .calculadora input {
-    background-color: rgb(189, 188, 183);
+    background-color: rgb(184, 184, 184);
     border: none;
     padding: 5px;
     border-radius: 5px;
@@ -28,4 +28,18 @@
     background-color: darkgrey;
     color: rgb(105, 99, 99);
     cursor: pointer;
+}
+.spResultado{
+    background-color: #a1a1a1da;
+    color: #cccccc;
+    padding: 4px;
+    margin: 2px;
+    border-radius: 10px;
+}
+.spMes {
+    color: rgb(153, 159, 163);
+    border-width: 1px;
+    border-style: dashed;
+    border-color: #cccccc;
+    text-align: start;
 }
