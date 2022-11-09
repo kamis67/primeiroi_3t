@@ -3,43 +3,33 @@
     background:#cccccc;
     width: 200px;
     border-radius: 5px;
-    box-shadow: 5px 5px rgb(190, 183, 201)
     
 }
+.calculadora input{
+    background: rgb(230, 222, 236);
+    color: rgb(47, 37, 56);
+    border-radius: 5px;
+}
 
-.calculadora input {
-    background-color: rgb(184, 184, 184);
-    border: none;
+.spResul {
+    background: rgb(77, 76, 78);
+    color: aliceblue;
     padding: 5px;
+    margin: 5px;
+    border-radius: 3px;
+}
+
+#btnCal {
+    width: 50px;
+    padding: 5px;
+    background: rgb(54, 53, 54);
+    margin-top: 13px;
+    color: aliceblue;
     border-radius: 5px;
 }
-.calculadora  input:focus{
-    background-color: darkgray;
-    color: rgb(148, 144, 144);
-}
-#btncalc {
-    background-color: rgb(136, 128, 128);
-    color: rgb(107, 103, 103);
-    padding: 5px;
-    border-radius: 5px;
-    margin-top : 10 px ;
-}
-#btncalc:hover {
-    background-color: darkgrey;
-    color: rgb(105, 99, 99);
+
+#btnCal:hover {
+    background: rgb(93, 92, 95);
+    color: aliceblue;
     cursor: pointer;
-}
-.spResultado{
-    background-color: #a1a1a1da;
-    color: #cccccc;
-    padding: 4px;
-    margin: 2px;
-    border-radius: 10px;
-}
-.spMes {
-    color: rgb(153, 159, 163);
-    border-width: 1px;
-    border-style: dashed;
-    border-color: #cccccc;
-    text-align: start;
 }
