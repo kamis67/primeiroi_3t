@@ -1,36 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terceiro Trimestre</title>
+    <title>Primeiro H</title>
     <script src="estudo.js"></script>
-
     <link rel="stylesheet" href="geral.css">
-
+    
 </head>
 <body>
-    <div class="calculadora">
-    <input type="checkbox"  id="calcFin">
-        <label for="calcFin"><h3>Financeira</h3></label>
-        <div class="calcF">
-      <div class="spResultado">
-        <span id="resultado">Total:0,0</span><br>
-      </div>
-      
-        Capital: <input id="valor" type="text"> <br>
-        Taxa de Juros: <input id="juros" type="text"> <br>
-        Quantidade meses: <input id="meses" type="text"> <br>
-        <button id="btnCalc" onclick="total()">Calcular</button>
+    <div class="calculadora" >
 
-        <div class="=spMes"></div>
-        <div>
-          <span id= "mes">Mês a Mês </span>
-        </div>
-      </div>
+        <div class="spResul">
+            <span id="total">Total: 0,00</span><br>
+            </div>
+
     
-   
+        Valor: <input id="val" type="text"><br>
+        Juros: <input id="ju" type="text"><br>
+        Meses: <input id="mes" type="text"><br>
+        <button id="btnCal" onclick="total()">Enviar</button><br>
+     
+        
+
+    </div>
+    <div>
+        <span id="meses"> Mês a Mês</span>
+    </div>
+    
+    <div class="calculadora">
+        Digite o valor de A<input id = "aEquacao" type="text"><br>
+        Digite o valor de B<input id = "bEquacao" type="text"><br>
+        Digite o valor de C<input id = "cEquacao" type="text"><br>
+        <button onclick="calculaRaiz()"> Calcular </button><br>
+        <div class="spRaiz">
+            <span id="raiz"></span>
+
+        </div>
+    </div>
+  
+    
 </body>
 </html>
